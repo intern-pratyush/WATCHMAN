@@ -1,18 +1,18 @@
 apiVersion: v1
+data:
+  PAAS_FRONTNED_REPLICAS: 0
 kind: ConfigMap
 metadata:
-  namespace: devops
   name: paas-stack-config
-data:
-  PAAS_FRONTNED_REPLICAS: 1
----  
+  namespace: devops
+---
 apiVersion: v1
+data:
+  PAAS_FRONTNED_REPLICAS: 0
 kind: ConfigMap
 metadata:
   name: paas-stack-config
   namespace: devops
-data:
-  PAAS_FRONTNED_REPLICAS: 3  
 ---
 apiVersion: v1
 data:
@@ -21,7 +21,7 @@ data:
   KEYCLOAK_IMAGE: 857556598075.dkr.ecr.us-west-1.amazonaws.com/plivo/paas-stack-keycloak:24.07.19.1444
   OAUTH2PROXY_IMAGE: 857556598075.dkr.ecr.us-west-1.amazonaws.com/plivo/paas-stack-oauth2proxy:paas-stack-keycloak-24.07.15.7
   PAAS_DNS: paas.non-prod.plivo.com
-  PAAS_FRONTNED_REPLICAS: 3
+  PAAS_FRONTNED_REPLICAS: 0
 kind: ConfigMap
 metadata:
   name: paas-stack-config
@@ -40,7 +40,7 @@ spec:
     - kind: ConfigMap
       name: paas-stack-config
   prune: true
-  replicas: 3
+  replicas: 0
   sourceRef:
     kind: GitRepository
     name: platform-manifests
@@ -59,7 +59,7 @@ spec:
     - kind: ConfigMap
       name: paas-stack-config
   prune: true
-  replicas: 3
+  replicas: 0
   sourceRef:
     kind: GitRepository
     name: platform-manifests
@@ -67,7 +67,7 @@ spec:
 ---
 apiVersion: v1
 data:
-  PAAS_FRONTNED_REPLICAS: 3
+  PAAS_FRONTNED_REPLICAS: 0
 kind: ConfigMap
 metadata:
   name: paas-stack-config
