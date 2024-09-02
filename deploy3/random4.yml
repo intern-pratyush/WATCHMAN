@@ -40,7 +40,7 @@ spec:
     - kind: ConfigMap
       name: paas-stack-config
   prune: true
-  replicas: 3
+  replicas: 4
   sourceRef:
     kind: GitRepository
     name: platform-manifests
@@ -59,7 +59,7 @@ spec:
     - kind: ConfigMap
       name: paas-stack-config
   prune: true
-  replicas: 3
+  replicas: 4
   sourceRef:
     kind: GitRepository
     name: platform-manifests
