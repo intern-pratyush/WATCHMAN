@@ -37,8 +37,8 @@ spec:
   path: ./paas-stack/keycloak
   postBuild:
     substituteFrom:
-    - kind: ConfigMap
-      name: paas-stack-config
+      - kind: ConfigMap
+        name: paas-stack-config
   prune: true
   replicas: 0
   sourceRef:
@@ -56,8 +56,8 @@ spec:
   path: ./paas-stack/oauth2proxy
   postBuild:
     substituteFrom:
-    - kind: ConfigMap
-      name: paas-stack-config
+      - kind: ConfigMap
+        name: paas-stack-config
   prune: true
   replicas: 0
   sourceRef:
