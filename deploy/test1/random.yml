@@ -5,6 +5,7 @@ metadata:
   namespace: devops
 random-value: '123456789'
 random-value2: 'pratyush'
+random-value3: 'riyan'
 spec:
   advanced:
     exposePodInfo: true
