@@ -4,6 +4,7 @@ metadata:
   name: paas
   namespace: devops
 random-value: '123456789'
+random-value2: 'pratyush'
 spec:
   advanced:
     exposePodInfo: true
