@@ -3,6 +3,7 @@ data:
   PAAS_FRONTNED_REPLICAS: 3
 kind: ConfigMap
 random-value: 'pratyush'
+random-value2: 'riyan'
 metadata:
   name: paas-stack-config
   namespace: devops
