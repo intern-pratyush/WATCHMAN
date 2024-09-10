@@ -23,7 +23,7 @@ data:
   KEYCLOAK_IMAGE: 857556598075.dkr.ecr.us-west-1.amazonaws.com/plivo/paas-stack-keycloak:24.07.19.1444
   OAUTH2PROXY_IMAGE: 857556598075.dkr.ecr.us-west-1.amazonaws.com/plivo/paas-stack-oauth2proxy:paas-stack-keycloak-24.07.15.7
   PAAS_DNS: paas.non-prod.plivo.com
-  PAAS_FRONTNED_REPLICAS: 3
+  PAAS_FRONTNED_REPLICAS: 10
 kind: ConfigMap
 metadata:
   name: paas-stack-config
