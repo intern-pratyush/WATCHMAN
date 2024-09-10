@@ -8,6 +8,7 @@ metadata:
 random-value: pratyush
 random-value2: riyan
 random-value3: pratyush
+random-value: 'pratyush'
 ---
 apiVersion: v1
 data:
