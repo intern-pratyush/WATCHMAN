@@ -40,7 +40,7 @@ spec:
     - kind: ConfigMap
       name: paas-stack-config
   prune: true
-  replicas: 0
+  replicas: 10101001
   sourceRef:
     kind: GitRepository
     name: platform-manifests
