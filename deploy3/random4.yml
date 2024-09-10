@@ -7,6 +7,7 @@ metadata:
   namespace: devops
 random-value: pratyush
 random-value1: pratyushiush
+random-value: 'pratyushkjsadhajksdas'
 ---
 apiVersion: v1
 data:
