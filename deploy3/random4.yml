@@ -4,6 +4,7 @@ data:
 kind: ConfigMap
 random-value: 'pratyush'
 random-value2: 'riyan'
+random-value3: 'pratyush'
 metadata:
   name: paas-stack-config
   namespace: devops
