@@ -3,7 +3,6 @@ kind: WebService
 metadata:
   name: paas
   namespace: devops
-random-value: '12345'
 random-value: '123456789'
 random-value1: '123456789'
 random-value2: '123456789'
@@ -21,7 +20,7 @@ spec:
       healthcheck:
         path: /
     useCommonLoadbalancer: true
-  replicas: 0
+  replicas: 3
   resources:
     limits:
       cpu: '2'
