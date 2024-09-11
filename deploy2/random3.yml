@@ -1,12 +1,11 @@
 andom: '12413424567586'
 apiVersion: v1
 data:
-  PAAS_FRONTNED_REPLICAS: 3
+  PAAS_FRONTNED_REPLICAS: 0
 kind: ConfigMap
 metadata:
   name: paas-stack-config
   namespace: devops
-random: '12413424567586'
 random: '12413424567586'
 spec:
   advanced:
@@ -22,7 +21,7 @@ spec:
       healthcheck:
         path: /
     useCommonLoadbalancer: true
-  replicas: 3
+  replicas: 0
   resources:
     limits:
       cpu: '2'
