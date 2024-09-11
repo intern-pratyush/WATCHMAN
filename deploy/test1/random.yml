@@ -36,3 +36,5 @@ spec:
     runAsGroup: 0
     runAsNonRoot: false
     runAsUser: 0
+---
+spec.replicas.data: 0
