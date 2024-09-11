@@ -2,6 +2,7 @@ apiVersion: v1
 data:
   PAAS_FRONTNED_REPLICAS: 0
 kind: ConfigMap
+jkahsdkjsad
 metadata:
   name: paas-stack-config
   namespace: devops
