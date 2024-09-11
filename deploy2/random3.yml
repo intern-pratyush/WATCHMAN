@@ -1,6 +1,7 @@
 apiVersion: v1
 data:
   PAAS_FRONTNED_REPLICAS: 0
+random: '1234'  
 kind: ConfigMap
 metadata:
   name: paas-stack-config
