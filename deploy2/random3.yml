@@ -6,6 +6,7 @@ metadata:
   name: paas-stack-config
   namespace: devops
 random: '1234'
+random: '1234567'
 spec:
   advanced:
     exposePodInfo: true
