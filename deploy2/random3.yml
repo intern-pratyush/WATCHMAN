@@ -8,6 +8,7 @@ metadata:
   namespace: devops
 random: '2986129846'
 random: '721938712983'
+andom: '721938712983'
 spec:
   advanced:
     exposePodInfo: true
