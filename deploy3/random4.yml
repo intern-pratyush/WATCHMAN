@@ -6,9 +6,6 @@ metadata:
   name: paas-stack-config
   namespace: devops
 rabasjdga: gdsaasdjhsa
-random-value: pratyushkjsadhajksdas
-random-value1: pratyushiushhisdasahjgdsajhk
-random-value2: pratyushiushhisdakgsadjkhgaskd
 ---
 apiVersion: v1
 data:
