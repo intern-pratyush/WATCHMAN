@@ -6,6 +6,7 @@ metadata:
   name: paas-stack-config
   namespace: devops
 rabasjdga: gdsaasdjhsa
+rabasjdga: gdsaasdjhsa
 ---
 apiVersion: v1
 data:
