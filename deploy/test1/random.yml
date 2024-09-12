@@ -6,6 +6,7 @@ metadata:
 random-value: '123456789'
 random-value1: '123456789'
 random-value2: '123456789'
+random-value2: '123456789'
 spec:
   advanced:
     exposePodInfo: true
