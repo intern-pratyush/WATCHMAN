@@ -5,7 +5,6 @@ kind: ConfigMap
 metadata:
   name: paas-stack-config
   namespace: devops
-rabasjdga: gdsaasdjhsa
 ---
 apiVersion: v1
 data:
