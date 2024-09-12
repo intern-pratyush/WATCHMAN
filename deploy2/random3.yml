@@ -17,6 +17,7 @@ spec:
     listenerPorts:
     - 443
     public: false
+    public: false
     targetGroup:
       healthcheck:
         path: /
