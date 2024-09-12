@@ -5,7 +5,6 @@ metadata:
   namespace: devops
 random-value: '123456789'
 random-value1: '123456789'
-random-value2: '12345678961398123'
 random-value2: '123456789'
 spec:
   advanced:
@@ -21,7 +20,7 @@ spec:
       healthcheck:
         path: /
     useCommonLoadbalancer: true
-  replicas: 0
+  replicas: 10
   resources:
     limits:
       cpu: '2'
