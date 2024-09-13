@@ -19,7 +19,7 @@ spec:
       healthcheck:
         path: /
     useCommonLoadbalancer: true
-  replicas: 10
+  replicas: 0
   resources:
     limits:
       cpu: '2'
