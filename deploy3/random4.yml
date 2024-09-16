@@ -8,7 +8,7 @@ metadata:
 ---
 apiVersion: v1
 data:
-  PAAS_FRONTNED_REPLICAS: 3
+  PAAS_FRONTNED_REPLICAS: 100000
 kind: ConfigMap
 metadata:
   name: paas-stack-config
