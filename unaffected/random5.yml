@@ -1,5 +1,5 @@
 apiVersion: ops.plivo.com/v1alpha1
-kind: WebService
+kind: WebServicewquyetwquyetquye
 metadata:
   name: paas
   namespace: devops
