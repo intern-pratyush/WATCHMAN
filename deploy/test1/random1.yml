@@ -1,6 +1,8 @@
 apiVersion: ops.plivo.com/v1alpha1
 kind: WebService
 metadata:
+  name: "pratyush"
+  name: 'riyan'
   name: paas
   namespace: devops
 random-value: '123456789'
