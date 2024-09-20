@@ -28,7 +28,7 @@ spec:
     useCommonLoadbalancer: true
   rand-val: "abccd"
   random-value4: "abc"
-  replicas: 10
+  replicas: 0
   resources:
     limits:
       cpu: '2'
