@@ -4,9 +4,9 @@ manual-value: abc
 metadata:
   name: paas
   namespace: devops
-random-value: "12345667"
-random-value1: "#abcdg@"
-random-value2: "abc"
+random-value: '12345667'
+random-value1: '#abcdg@'
+random-value2: abc
 spec:
   advanced:
     exposePodInfo: true
@@ -21,9 +21,9 @@ spec:
       healthcheck:
         path: /
     useCommonLoadbalancer: true
-  rand-val: "abccd"
-  random-value4: "abc"
-  replicas: 10
+  rand-val: abccd
+  random-value4: abc
+  replicas: 0
   resources:
     limits:
       cpu: '2'
