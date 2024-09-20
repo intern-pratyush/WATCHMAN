@@ -8,6 +8,8 @@ random-value: "12345667"
 random-value1: "#abcdg@"
 random-value2: "abc"
 random-value3: "abdfsdc"
+raand-value: "10000"
+raand-value1: "randiy"
 spec:
   advanced:
     exposePodInfo: true
