@@ -1,14 +1,12 @@
 apiVersion: ops.plivo.com/v1alpha1
 kind: WebService
 metadata:
-  name: "pratyush"
-  name: 'riyan'
-  name: 'riyan123'
   name: paas
   namespace: devops
 random-value: '123456789'
 random-value1: '123456789'
 random-value2: '123456789'
+random-value3: "12345678"
 spec:
   advanced:
     exposePodInfo: true
