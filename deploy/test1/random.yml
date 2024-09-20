@@ -1,41 +1,41 @@
-"apiVersion": "ops.plivo.com/v1alpha1"
-"kind": "WebServicehsakjhdsakjdkjasksa"
-"manual-value": "abc"
-"metadata":
-  "name": "paas"
-  "namespace": "devops"
-"random-value": "12345667"
-"random-value1": "#abcdg@"
-"random-value2": "abc"
-"spec":
-  "advanced":
-    "exposePodInfo": !!bool "true"
-  "consul": "https://consul.non-prod.plivops.com"
-  "containerPort": !!int "3000"
-  "image": "857556598075.dkr.ecr.us-west-1.amazonaws.com/plivo/devops/paas:dev-d5984ad-1722497106221"
-  "loadbalancing":
-    "listenerPorts":
-    - !!int "443"
-    "public": !!bool "false"
-    "targetGroup":
-      "healthcheck":
-        "path": "/"
-    "useCommonLoadbalancer": !!bool "true"
-  "rand-val": "abccd"
-  "random-value": "abc"
-  "replicas": !!int "10"
-  "resources":
-    "limits":
-      "cpu": "2"
-      "memory": "3Gi"
-    "requests":
-      "cpu": "1.5"
-      "memory": "2Gi"
-  "securityContext":
-    "allowPrivilegeEscalation": !!bool "true"
-    "fsGroup": !!int "0"
-    "privileged": !!bool "true"
-    "readOnlyRootFilesystem": !!bool "false"
-    "runAsGroup": !!int "0"
-    "runAsNonRoot": !!bool "false"
-    "runAsUser": !!int "0"
+apiVersion: ops.plivo.com/v1alpha1
+kind: WebServicehsakjhdsakjdkjasksa
+manual-value: abc
+metadata:
+  name: paas
+  namespace: devops
+random-value: '12345667'
+random-value1: '#abcdg@'
+random-value2: abc
+spec:
+  advanced:
+    exposePodInfo: true
+  consul: https://consul.non-prod.plivops.com
+  containerPort: 3000
+  image: 857556598075.dkr.ecr.us-west-1.amazonaws.com/plivo/devops/paas:dev-d5984ad-1722497106221
+  loadbalancing:
+    listenerPorts:
+    - 443
+    public: false
+    targetGroup:
+      healthcheck:
+        path: /
+    useCommonLoadbalancer: true
+  rand-val: abccd
+  random-value: abc
+  replicas: 10
+  resources:
+    limits:
+      cpu: '2'
+      memory: 3Gi
+    requests:
+      cpu: '1.5'
+      memory: 2Gi
+  securityContext:
+    allowPrivilegeEscalation: true
+    fsGroup: 0
+    privileged: true
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
