@@ -1,18 +1,15 @@
 apiVersion: ops.plivo.com/v1alpha1
 kind: WebServicehsakjhdsakjdkjasksa
-manual-value: rich
+manual-value: abc
 metadata:
   name: paas
   namespace: devops
-random-value: "1234"
-manual-value: "abc"
-random-value: "12345667"
+random-value: '12345667'
 spec:
   advanced:
     exposePodInfo: true
   consul: https://consul.non-prod.plivops.com
   containerPort: 3000
-  rand-val: "abccd"
   image: 857556598075.dkr.ecr.us-west-1.amazonaws.com/plivo/devops/paas:dev-d5984ad-1722497106221
   loadbalancing:
     listenerPorts:
@@ -22,8 +19,9 @@ spec:
       healthcheck:
         path: /
     useCommonLoadbalancer: true
+  rand-val: abccd
   random-value: abc
-  replicas: 100000
+  replicas: 0
   resources:
     limits:
       cpu: '2'
