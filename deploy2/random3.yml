@@ -1,39 +1,39 @@
-andom: '721938712983'
-apiVersion: v1
-data:
-  PAAS_FRONTNED_REPLICAS: 3
-kind: ConfigMap
-metadata:
-  name: paas-stack-config
-  namespace: devops
-random: '7219387129837107410'
-spec:
-  advanced:
-    exposePodInfo: true
-  consul: https://consul.non-prod.plivops.com
-  containerPort: 3000
-  image: 857556598075.dkr.ecr.us-west-1.amazonaws.com/plivo/devops/paas:dev-d5984ad-1722497106221
-  loadbalancing:
-    listenerPorts:
-    - 443
-    public: false
-    targetGroup:
-      healthcheck:
-        path: /
-    useCommonLoadbalancer: true
-  replicas: 3
-  resources:
-    limits:
-      cpu: '2'
-      memory: 3Gi
-    requests:
-      cpu: '1.5'
-      memory: 2Gi
-  securityContext:
-    allowPrivilegeEscalation: true
-    fsGroup: 0
-    privileged: true
-    readOnlyRootFilesystem: false
-    runAsGroup: 0
-    runAsNonRoot: false
-    runAsUser: 0
+"andom": "721938712983"
+"apiVersion": "v1"
+"data":
+  "PAAS_FRONTNED_REPLICAS": !!int "0"
+"kind": "ConfigMap"
+"metadata":
+  "name": "paas-stack-config"
+  "namespace": "devops"
+"random": "7219387129837107410"
+"spec":
+  "advanced":
+    "exposePodInfo": !!bool "true"
+  "consul": "https://consul.non-prod.plivops.com"
+  "containerPort": !!int "3000"
+  "image": "857556598075.dkr.ecr.us-west-1.amazonaws.com/plivo/devops/paas:dev-d5984ad-1722497106221"
+  "loadbalancing":
+    "listenerPorts":
+      - !!int "443"
+    "public": !!bool "false"
+    "targetGroup":
+      "healthcheck":
+        "path": "/"
+    "useCommonLoadbalancer": !!bool "true"
+  "replicas": !!int "0"
+  "resources":
+    "limits":
+      "cpu": "2"
+      "memory": "3Gi"
+    "requests":
+      "cpu": "1.5"
+      "memory": "2Gi"
+  "securityContext":
+    "allowPrivilegeEscalation": !!bool "true"
+    "fsGroup": !!int "0"
+    "privileged": !!bool "true"
+    "readOnlyRootFilesystem": !!bool "false"
+    "runAsGroup": !!int "0"
+    "runAsNonRoot": !!bool "false"
+    "runAsUser": !!int "0"
