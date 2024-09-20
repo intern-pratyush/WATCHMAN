@@ -4,12 +4,15 @@ manual-value: ghoda
 metadata:
   name: paas
   namespace: devops
-random-value: abc
+random-value: "abc"
+random-value: "1234"
+manual-value: "rich"
 spec:
   advanced:
     exposePodInfo: true
   consul: https://consul.non-prod.plivops.com
   containerPort: 3000
+  random-value: "abc"
   image: 857556598075.dkr.ecr.us-west-1.amazonaws.com/plivo/devops/paas:dev-d5984ad-1722497106221
   loadbalancing:
     listenerPorts:
@@ -19,7 +22,7 @@ spec:
       healthcheck:
         path: /
     useCommonLoadbalancer: true
-  replicas: 10
+  replicas: 90
   resources:
     limits:
       cpu: '2'
