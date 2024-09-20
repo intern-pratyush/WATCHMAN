@@ -5,6 +5,8 @@ metadata:
   namespace: devops
 random-value: "abc"
 random-value: "123456"
+manual-value: "ghoda"
+random-value: "abc"
 spec:
   advanced:
     exposePodInfo: true
