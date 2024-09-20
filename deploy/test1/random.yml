@@ -3,7 +3,8 @@ kind: WebServicehsakjhdsakjdkjasksa
 metadata:
   name: paas
   namespace: devops
-random-value: abc
+random-value: "abc"
+random-value: "123456"
 spec:
   advanced:
     exposePodInfo: true
