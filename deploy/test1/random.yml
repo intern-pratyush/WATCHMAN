@@ -4,7 +4,8 @@ manual-value: rich
 metadata:
   name: paas
   namespace: devops
-random-value: '1234'
+random-value: "1234"
+manual-value: "abc"
 spec:
   advanced:
     exposePodInfo: true
