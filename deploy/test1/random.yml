@@ -3,8 +3,7 @@ kind: WebServicehsakjhdsakjdkjasksa
 metadata:
   name: paas
   namespace: devops
-random-value: "123456789"
-random-value: "abc"
+random-value: abc
 spec:
   advanced:
     exposePodInfo: true
@@ -19,7 +18,7 @@ spec:
       healthcheck:
         path: /
     useCommonLoadbalancer: true
-  replicas: 0
+  replicas: 10
   resources:
     limits:
       cpu: '2'
