@@ -10,6 +10,7 @@ random-value2: "abc"
 random-value3: "abdfsdc"
 raand-value: "10000"
 raand-value1: "randiy"
+random-value4: '12345678721390'
 spec:
   advanced:
     exposePodInfo: true
